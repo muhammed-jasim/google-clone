@@ -1,0 +1,122 @@
+.google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.google-png{
+    width: 380px;
+    position: relative;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-box{
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    outline: none;
+    position: absolute;
+    top: 300px;
+    border: none;
+    box-shadow:1px 1px 2px 1px rgb(210, 211, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
+}
+.mic{
+    display: flex;
+    justify-content: center;
+    margin-left: 550px;
+
+}
+.mic-png{
+    width: 12px;
+    position: absolute;
+    top: 312px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin-right: 550px;
+}
+#search-icon{
+    position: absolute;
+    top: 310px;
+    color: rgb(108, 104, 104);
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.twobtn{
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(222, 225, 228);
+    padding: 3px 10px 3px 10px;
+}
+.twobtn:hover{
+    box-shadow: 0px 0px 2px 2px rgb(207, 202, 202);
+
+}
+.nav-bar{
+    display: flex;
+    justify-content:end;
+
+}
+.navtxt{
+    margin: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+
+}
+.navtxt:hover{
+    text-decoration: underline;
+}
+.avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    position:relative;
+    top: -10px;
+    
+}
+#app-icon{
+    position: relative;
+    top: -5px;
+}
+
+@media (max-width: 380px){
+    .nav-bar{width: 350px;}
+}
+@media(max-width:380px){
+    .input-box{
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        top: 293px;
+        
+        
+    }
+}
+@media (max-width: 380px){
+    .google-png{width: 200px;top: 90px;}
+    .mic-png{top: 306px;left: 312px;}
+    #search-icon{top: 304px;left: 50px;}
+    
+
+}
+@media (max-width: 380px){
+    body{height: 620px;}
+    .btn{margin-block: 104px;}
+
+}
